@@ -4,6 +4,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
+    min-height: 100vh;
 }
 
 .header {
@@ -71,6 +72,7 @@ body {
 }
 
 .first img {
+    border: 2px solid white;
     width: 550px;
     height: 275px;
 }
@@ -101,7 +103,7 @@ body {
     align-items: center;
 }
 
-.box {
+.card img {
     border: 5px solid #3882f6;
     width: 200px;
     height: 210px;
@@ -114,7 +116,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 100px 300px;
+    padding: 100px 300px;flex: 1;
 }
 
 .quote {
@@ -178,5 +180,17 @@ body {
     flex-shrink: 0;
 
 }
+
+.footer {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    flex: 1;
+}
+
 
 
