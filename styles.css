@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 10px 100px 0px; 
+}
+
+.right-links ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 100px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    align-items: start;
+    color: #F9FAF8;
+
+}
+
+.sub-heading {
+    font-weight: normal;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.intro-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 25px;
+
+}
+
+.first img {
+    width: 550px;
+    height: 275px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
