@@ -135,12 +135,11 @@ body {
     display: flex;
     padding: 100px;
     justify-content: center;
-    flex-shrink: 1;
 }
 
 .modal {
     display: flex;
-    gap: 900px;
+    justify-content: space-between;
     padding: 40px 100px;
     background-color: #3882f6;
     color:#F9FAF8;
@@ -148,10 +147,9 @@ body {
     font-size: 24px;
     align-items: center;
     border-radius: 10px;
-    flex-basis: auto;
-    flex-shrink: 1;
-    min-width: 0;
+    flex-wrap: wrap;
     overflow: hidden;
+    width: 1000px;
 }
 
 .call-text {
@@ -169,7 +167,7 @@ body {
     border-radius: 10px;
     font-weight: 900;
     height: 35px;
-    min-width: 0;
+    flex-shrink: 1;
     
 }
 
@@ -177,8 +175,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 300px;
-    flex-basis: auto;
-    flex-shrink: 1;
+    flex-shrink: 0;
 
 }
 
