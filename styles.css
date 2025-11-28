@@ -89,3 +89,47 @@ body {
     font-weight: 900;
     color: #1F2937;
 }
+
+.card-container {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: 5px solid #3882f6;
+    width: 200px;
+    height: 210px;
+    border-radius: 20px;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote {
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+
+
